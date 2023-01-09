@@ -1,7 +1,7 @@
-var SwaggerUI = require('swagger-ui');
+import {SwaggerUI} from 'swagger-ui';
 
 console.log("Successfully imported Swagger-UI");
 
 SwaggerUI({
-  dom_id: '#swagger-ui'
+   dom_id: '#swagger-ui'
 });
